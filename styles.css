@@ -81,3 +81,61 @@ form {
   border-radius: 18px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
+/* Footer */
+.footer {
+  background-color: #2b1d14;
+  color: white;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: #ffc107;
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 44px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .navbar-brand {
+    font-size: 22px;
+  }
+}
+
+/* Mobile Phone Responsiveness */
+@media (max-width: 576px) {
+  .hero-section {
+    min-height: 80vh;
+  }
+
+  .hero-content h1 {
+    font-size: 34px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .btn-lg {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .menu-card img {
+    height: 200px;
+  }
+
+  form {
+    padding: 20px;
+  }
+}
